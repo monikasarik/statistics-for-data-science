@@ -217,3 +217,34 @@ Essential for simulations, uncertainty estimation, and Bayesian inference
 Logistic Regression uses sigmoid (based on probability)
 Naive Bayes assumes features follow probability distributions
 In fraud detection, Poisson or Exponential distributions model unusual activity
+
+📊 Statistics for Data Science – Covariance vs. Correlation 🔍
+As I continue building my understanding of data relationships, today I explored two key concepts that describe how variables move together:
+
+✅ Covariance
+✅ Correlation
+Both are about relationships between two variables, but they serve different purposes and have different strengths.
+
+🔗 Covariance – Do They Move Together?
+Covariance measures how two variables change together.
+Positive covariance: Variables increase together
+Negative covariance: One increases while the other decreases
+Zero covariance: No relationship
+📌 But... the value of covariance depends on the units of the variables, which makes it hard to interpret or compare across datasets.
+
+📐 Correlation – How Strong is the Relationship?
+Correlation standardizes covariance by dividing by the standard deviations of the variables, giving a value between -1 and +1.
++1: Perfect positive correlation
+0: No correlation
+–1: Perfect negative correlation
+✅ Correlation is unit-free, making it much more interpretable and useful in feature selection, EDA, and model building.
+
+| Feature          | Covariance                         | Correlation                            |
+| ---------------- | ---------------------------------- | -------------------------------------- |
+| Scale            | Affected by variable units         | Unit-free (standardized)               |
+| Range            | Unbounded                          | From –1 to +1                          |
+| Interpretability | Harder to compare                  | Easy to interpret strength & direction |
+| Usage            | Underlying concept for correlation | Used in ML, feature analysis, EDA      |
+
+
+
