@@ -1,13 +1,14 @@
+<h1 align="center">📊 Statistics for Data Science – Learning Journey</h1>
 📊 Statistics for Data Science – Learning Journey
 Welcome to my Statistics for Data Science repository! This is a personal learning space where I document key concepts, examples, and notes as I build my foundation in statistics—one of the most essential pillars of data science.
 
-📌 What is Statistics?
+<h2 align="center">What is Statistics?</h2>
 Statistics is the science of learning from data. It involves:
-Collecting
-Organizing
-Analyzing
-Interpreting
-Presenting data
+1.Collecting
+2.Organizing
+3.Analyzing
+4.Interpreting
+5.Presenting data
 In simple terms, statistics helps us transform raw data into meaningful insights—a core skill in any data-driven field.
 
 🎯 Why is Statistics Important in Data Science?
