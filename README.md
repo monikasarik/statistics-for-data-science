@@ -19,7 +19,7 @@ Validate assumptions and test hypotheses
 Model uncertainty and make predictions
 Evaluate the performance of machine learning models
 
-📚 Types of Statistics
+<h3>📚 Types of Statistics</h3>
 1. Descriptive Statistics – What’s happening in the data?
 Summarizes data using numerical and graphical methods
 Common metrics: mean, median, mode, range, variance, standard deviation
